@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_05_24_145717) do
+ActiveRecord::Schema.define(version: 2022_05_25_144450) do
 
   create_table "basic_monthly_payments", force: :cascade do |t|
     t.decimal "amount"
